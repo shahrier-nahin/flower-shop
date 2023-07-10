@@ -48,7 +48,7 @@
     padding: 150px 425px 5px 308px;
 
 }
-.hot_deals_contents{
+.text_contents{
     max-width: 390px;
 }
 .section-title{
@@ -67,3 +67,13 @@
 .highlight{
     color: #E55473;
 }
+
+/*social section related styles*/
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .social_pics {
+    margin: 0 10px; 
+  }
