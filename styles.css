@@ -3,9 +3,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 /*Header related styles*/
-.header{
-    background-color: white;
-}
 
 .header{
     display: flex;
@@ -38,4 +35,35 @@
     font-size: 18px;
     width: 120px;
     height: 50px;
+}
+.btn-position{
+    margin: 0px 135px;
+}
+
+/*Hot Deals related styles*/
+.hot_deals{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 425px 5px 308px;
+
+}
+.hot_deals_contents{
+    max-width: 390px;
+}
+.section-title{
+    text-align: center;
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+}
+.description_text{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+}
+.highlight{
+    color: #E55473;
 }
