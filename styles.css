@@ -40,6 +40,44 @@
     margin: 0px 135px;
 }
 
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 240px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.feature-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+}
+
+.feature_description_text {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+}
+
+.image-row {
+    display: flex; 
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.feature_pic_1,.feature_pic_2,.feature_pic_3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    margin: 5px;
+}
+
+
+
 /*Hot Deals related styles*/
 .hot_deals{
     display: flex;
@@ -101,7 +139,7 @@
   }
   .deals_contents{
         position: absolute;
-        top: 2230px;
+        top: 3110px;
         left: 725px;
     }
 
