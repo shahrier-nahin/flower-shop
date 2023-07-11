@@ -83,6 +83,10 @@
   }
 
   /*latest deals related styles*/
+.latest_deals{
+    margin-top: 75px;
+}
+
   .form{
     display: flex;
     align-items:space-between ;
@@ -93,8 +97,13 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    position: relative;
   }
+  .deals_contents{
+        position: absolute;
+        top: 2230px;
+        left: 725px;
+    }
 
   .mail {
     margin-right: 350px;
@@ -110,6 +119,7 @@
   .footer{
     background: #111010;
     height: 449px;
+    margin-top: 75px;
 
   }
   .footer-section-title{
