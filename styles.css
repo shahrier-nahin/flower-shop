@@ -121,8 +121,9 @@
   }
 
   /*latest deals related styles*/
-.latest_deals{
+  .latest_deals {
     margin-top: 75px;
+    position: relative;
 }
 
   .form{
@@ -131,17 +132,18 @@
     justify-content: center;
   }
 
-  .deals_pic{
+  .deals_pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-  }
-  .deals_contents{
-        position: absolute;
-        top: 3110px;
-        left: 725px;
-    }
+}
+.deals_contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
   .mail {
     margin-right: 350px;
