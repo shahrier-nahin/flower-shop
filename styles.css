@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     padding: 50px 240px 50px 240px;
-    justify-content: space-between;
+    justify-content: center;
 }
 .banner{
     max-width: 500px;
@@ -44,10 +44,11 @@
 .hot_deals{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 150px 425px 5px 308px;
 
 }
+
 .text_contents{
     max-width: 390px;
 }
@@ -67,6 +68,9 @@
 .highlight{
     color: #E55473;
 }
+.highlight-1{
+    color: #fff;
+}
 
 /*social section related styles*/
 .social {
@@ -77,3 +81,55 @@
   .social_pics {
     margin: 0 10px; 
   }
+
+  /*latest deals related styles*/
+  .form{
+    display: flex;
+    align-items:space-between ;
+    justify-content: center;
+  }
+
+  .deals_pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .mail {
+    margin-right: 350px;
+    border-color: transparent;
+  }
+
+  .description_text {
+    top: 50%;
+    left: 50%;
+  }
+
+  /*footer related styles*/
+  .footer{
+    background: #111010;
+    height: 449px;
+
+  }
+  .footer-section-title{
+    text-align: center;
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    padding-top: 135px
+}
+  .footer_description_text{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+}
+.credits{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+}
